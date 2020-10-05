@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "Abril";
+    src: url('Abril.ttf');
+}
 body {
     background: #51adcf;
 }
@@ -10,6 +14,7 @@ body {
 .header h1 {
     font-weight: normal;
     font-size: 35px;
+    font-family: "Abril";
 }
 .header p {
     font-size: 12px;
@@ -38,7 +43,10 @@ body {
     padding-left: 20px;
     background: #e8ffc1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 10px;
+    line-height: 12px;
+}
+.konten .list h4{
+    margin-block-end: 0px;
 }
 .konten .list p {
     font-size: 10px;
