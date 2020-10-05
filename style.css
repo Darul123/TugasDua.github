@@ -1,0 +1,65 @@
+body {
+    background: #51adcf;
+}
+.header {
+    padding-top: 30px;
+    text-align: center;
+    color: #e8ffc1;
+    line-height: 5px;
+}
+.header h1 {
+    font-weight: normal;
+    font-size: 35px;
+}
+.header p {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.konten {
+    position: relative;
+    margin: auto;
+    width: 65%;
+    height: auto;
+    padding-left: 50px;
+}
+.konten img {
+    float: left;
+    width: 370px;
+    height: auto;
+    margin-top: 20px;
+}
+.konten .listkanan .list {
+    color: #838383;
+    float: left;
+    width: 350px;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    background: #e8ffc1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 10px;
+}
+.konten .list p {
+    font-size: 10px;
+}
+.button a {
+    height: 110px;
+    width: 50px;
+    background: #0278ae;
+    border: none;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.button a img {
+    width: 20px;
+    height: 20px;
+    margin: 45px 15px;
+}
+.button a img:hover {
+    width: 20px;
+    height: 20px;
+    margin: 45px 20px;
+}
